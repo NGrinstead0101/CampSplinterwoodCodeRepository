@@ -33,6 +33,10 @@ public class StoryTrigger : MonoBehaviour
         }
     }
 
+    /// <summary>
+    /// Checks if the player has one or both required items for this trigger
+    /// </summary>
+    /// <returns></returns>
     private bool CheckForItem()
     {
         // Checks for bathroom note
